@@ -1,7 +1,7 @@
 import styles from '../../styles/Admin.module.css';
 
 import { collection, doc, query, orderBy, setDoc } from 'firebase/firestore';
-import AuthCheck from '../../components/AuthCheck';
+import AuthCheck from '../../components/authcheck';
 import { PostItem } from '../../components/postfeed';
 import { auth, firestore, serverTimestamp } from '../../lib/firebase';
 

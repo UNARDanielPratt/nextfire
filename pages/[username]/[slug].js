@@ -1,7 +1,7 @@
 import { collection, collectionGroup, doc, getDoc, getDocs } from "firebase/firestore";
 import Link from "next/link";
 import { useDocumentData } from "react-firebase-hooks/firestore";
-import AuthCheck from "../../components/AuthCheck";
+import AuthCheck from "../../components/authcheck";
 import HeartButton from "../../components/heartbutton";
 import PostContent from "../../components/postcontent";
 import { firestore, getUserWithUsername, postToJSON } from "../../lib/firebase";
